@@ -2,6 +2,8 @@
 <%= form_tag student_path do %>
 <label>First Name</label><br>
   <%= text_field_tag('first_name') %>
-  <label>Last Name</label><br>
+<label>Last Name</label><br>
   <%= text_field_tag('last_name') %>
+<br>
+<%= submit_tag("Submit") %>
 <% end %>
